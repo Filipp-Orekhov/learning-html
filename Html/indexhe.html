@@ -3,69 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Styles/Normalize.css">
+    <link rel="fonts" href="Styles/fonts.css">
+    <link rel="stylesheet" href="./Styles/Style.css">
     <title>home ex</title>
 </head>
 <body>
-   <header>
-         <div>   
-            <img src="logo.svg" alt="Логотип" class="logo-header">
-            <nav>
-                <ul class="nav">
-                    <li>
-                        <a href="#">Home</a>
+   <header class="header">
+         <div class="header-wrapper">   
+            <a href="indexhe.html">
+                <img src="./Img/header/logo.svg" alt="Логотип" class="logo-header">
+            </a>
+            <nav class="header-nav">
+                <ul class="list-reset header-nav-list">
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Home</a>
                     </li>
-                    <li>
-                        <a href="#">Services</a>
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Services</a>
                     </li>
-                    <li>
-                        <a href="#">Articles</a>
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Articles</a>
                     </li>
-                    <li>
-                        <a href="#">Clients</a>
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Clients</a>
                     </li>
-                    <li>
-                        <a href="#">Contacts</a>
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Contacts</a>
                     </li>
-                    <li>
-                        <a href="#">Join us</a>
+                    <li class="header-list-element">
+                        <a class="header-list-link" href="#">Join us</a>
                     </li>
                 </ul>
             </nav>
-                <button class="btn-header">
-                    FREE TRIAL
-                </button>
+            <button class="btn-header btn-reset">
+                   FREE TRIAL
+            </button>
         </div>
    </header> 
-   <main>
-        <section class="cont-section">
-             
-                <h1 class="h1">
+    <main>
+        <section class="section-first">
+            <h1 class="h1">
                      This is simply a smarter way 
-                    <br>to make your legal online
-                 </h1>
-            
-             <div class="txt-section">
+                    to make your legal online
+            </h1>
+            <div class="txt-section">
                    <p>
                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-                      <br>sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+                      sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
                   </p>
             </div>
-             <button class="btn-section">
+             <button class="btn-section btn-reset">
                  FREE 30 DAY TRIAL
             </button>
             <div class="txt-section-ssl">
+              
+                <img src="./Img/section1/Vector.svg" alt="tick">
                 <p>
-                    <img src="./Vector.svg" alt="tick">SSL SECURED CONNECTION
+                        SSL SECURED CONNECTION
                 </p>
-             </div>
+            </div>
         </section>
-        <article class="art-serv">   
-            <div class="hserv">
-                <h2>
+        <section class="section-second">   
+            <div class="title-section-second">
+                <h2 class="h2-serv">
                     Services
                 </h2>
                 <p>
@@ -73,252 +74,233 @@
                 </p>
             </div>    
             <div class="Services">
-                <div class="serv-cont">   
-                    <img src="./what-1.svg" alt="pict">
-                    <h3>
+                <article class="serv-cont">   
+                    <img src="./Img/Services/what-1.svg" alt="pict" class="img-article-section-second">
+                    <h3 class="h3-section-second">
                         Your Legacy
                     </h3>
                     <p class="lorem-serv">
                         Lorem ipsum dolor sit amet,
-                        <br>consectetuer adipiscing elit, sed 
-                        <br>diam nonummy
+                        consectetuer adipiscing elit, sed 
+                        diam nonummy
                     </p>
-                </div>
-                <div class="serv-cont">    
-                    <img src="./what-2.svg" alt="pict">
-                    <h3>
+                </article>
+                <article class="serv-cont">    
+                    <img src="./Img/Services/what-2.svg" alt="pict" class="img-article-section-second">
+                    <h3 class="h3-section-second">
                         Your Health
                     </h3>
                     <p class="lorem-serv">
                         Lorem ipsum dolor sit amet,
-                        <br>consectetuer adipiscing elit, sed 
-                        <br>diam nonummy
+                        consectetuer adipiscing elit, sed 
+                        diam nonummy
                     </p>
-                </div>
-                <div class="serv-cont">    
-                    <img src="./what-3.svg" alt="pict">
-                    <h3>
+                </article>
+                <article class="serv-cont">    
+                    <img src="./Img/Services/what-3.svg" alt="pict" class="img-article-section-second">
+                    <h3 class="h3-section-second">
                         Funeral & Memorial
                     </h3>
                     <p class="lorem-serv">
                         Lorem ipsum dolor sit amet,
-                        <br>consectetuer adipiscing elit, sed 
-                        <br>diam nonummy
+                        consectetuer adipiscing elit, sed 
+                        diam nonummy
                     </p>
-                </div>
-                <div class="serv-cont">   
-                    <img src="./what-4.svg" alt="pict">
-                    <h3>
+                </article>
+                <article class="serv-cont">   
+                    <img src="./Img/Services/what-4.svg" alt="pict" class="img-article-section-second">
+                    <h3 class="h3-section-second">
                         Legal & Financial
                     </h3>
                     <p class="lorem-serv">
                         Lorem ipsum dolor sit amet,
-                        <br>consectetuer adipiscing elit, sed 
-                        <br>diam nonummy
+                        consectetuer adipiscing elit, sed 
+                        diam nonummy
                     </p>
-                </div>
+                </article>
             </div>
-        </article>
-        <article class="art-art">
-            <!-- <img src="./Rectangle 15.svg" alt="line"> -->
-            <h2>
+        </section>
+        <section class="section-article">
+             <h2 class="h2-article">
                 Articles
             </h2>
-                <div class="globalcont-art">   
-                    <div>   
-                        <div class="art-cont">
-                            <img src="./Rectangle 18.svg" alt="photo">
+                 <div class="section-article-conteiner-global">   
+                      <article class="art-cont">
+                            <img src="./Img/Articles/Rectangle18.svg" alt="photo">
                             <div  class="art-cont-txt">
-                                <p class="data-art">
-                                    15 Nov 2021
-                                    </p>
-                                <h3>
-                                    Jurisdiction
-                                </h3>
-                                <p class="lorem-art">
-                                    Lorem ipsum dolor sit amet,
-                                    <br>consectetuer adipiscing elit, sed 
-                                    <br>diam nonummy
-                                </p> 
+                                 <time class="data-art" datatime="2021-11-15"></time>
+                                 <h3 class="h3-article">
+                                       Jurisdiction
+                                 </h3>
+                                 <p class="lorem-art">
+                                     Lorem ipsum dolor sit amet,
+                                     consectetuer adipiscing elit, sed 
+                                     diam nonummy
+                                 </p> 
                             </div>
-                        </div>
-                        <div class="art-cont">
-                            <img src="./Rectangle 23.svg" alt="photo">
+                        </article>
+                        <article class="art-cont">
+                            <img src="./Img/Articles/Rectangle23.svg" alt="photo">
                             <div class="art-cont-txt">   
-                                <p class="data-art">
-                                    29 Nov 2021
-                                </p>
-                                <h3>
-                                    Rights and obligations
+                               <time class="data-art" datatime="2021-11-29"></time>
+                               <h3 class="h3-article">
+                                   Rights and obligations
                                 </h3>
                                 <p class="lorem-art">
-                                    Lorem ipsum dolor sit amet,
-                                    <br>consectetuer adipiscing elit, sed 
-                                    <br>diam nonummy
+                                   Lorem ipsum dolor sit amet,
+                                   consectetuer adipiscing elit, sed 
+                                   diam nonummy
                                 </p>
                             </div> 
-                        </div>
-                    </div>
-                    <div> 
-                        <div class="art-cont">
-                            <img src="./Rectangle 20.svg" alt="photo">
+                        </article>
+                        <article class="art-cont">
+                            <img src="./Img/Articles/Rectangle20.svg" alt="photo">
                             <div class="art-cont-txt">
-                                <p class="data-art">
-                                    28 Nov 2021
-                                </p>
-                                <h3>
+                               <time class="data-art" datatime="2021-11-29"></time>
+                                <h3 class="h3-article">
                                     Consulting
                                 </h3>
                                 <p class="lorem-art">
                                     Lorem ipsum dolor sit amet,
-                                    <br>consectetuer adipiscing elit, sed 
-                                    <br>diam nonummy
+                                    consectetuer adipiscing elit, sed 
+                                    diam nonummy
                                 </p>
                             </div> 
-                        </div>
-                        <div class="art-cont">
-                            <img src="./Rectangle 24.svg" alt="photo">
+                        </article>
+                        <article class="art-cont">
+                            <img src="./Img/Articles/Rectangle24.svg" alt="photo">
                             <div class="art-cont-txt">  
-                                <p class="data-art">
-                                    11 Dec 2021
-                                </p>
-                                <h3>
+                                <time class="data-art" datatime="2021-12-11"></time>
+                                <h3 class="h3-article">
                                     Contractors
                                 </h3>
                                 <p class="lorem-art">
                                     Lorem ipsum dolor sit amet,
-                                    <br>consectetuer adipiscing elit, sed 
-                                    <br>diam nonummy
+                                    consectetuer adipiscing elit, sed 
+                                    diam nonummy
                                 </p>
                             </div>  
-                        </div>
-                    </div>        
-                </div>    
-        </article>
-        <article class="clients">
-                <h2>
+                        </article>
+                    </div>
+         </section> 
+        <section class="section-clients">
+                <h2 class="h2-clients">
                     Clients
                 </h2>
             <div class="clients-main-cont">   
                 <div class="cont-clients">
                     <p class="txt-clients">
                         Duis autem vel eum iriure dolor in 
-                        <br>hendrerit in vulputate velit esse molestie 
-                        <br>consequat, vel illum dolore eu feugiat nulla
-                        <br>facilisis at vero eros et accumsan et iusto 
-                        <br>odio dignissim qui blandit odio 
-                        <br>qui blandit molestie consequat.
+                        hendrerit in vulputate velit esse molestie 
+                        consequat, vel illum dolore eu feugiat nulla
+                        facilisis at vero eros et accumsan et iusto 
+                        odio dignissim qui blandit odio 
+                        qui blandit molestie consequat.
                     </p>
                     <div class="line-clients">
                     </div>
                     <div class="cust-name">
-                        <img src="./Circle photo 1.svg" alt="face photo">
+                        <img src="./Img/customers/Circle photo1.svg" alt="face photo">
                         <div class="cust-name-for-marg">   
-                            <p class="Customer-name">
+                            <span class="Customer-name">
                                 John Armstrong
-                            </p>
-                            <p class="Customer">
+                            </span>
+                            <span class="Customer">
                                 Customer
-                            </p>
+                            </span>
                         </div>     
                     </div>        
                 </div>
-                <div class="cont-clients">
+                <article class="cont-clients">
                     <p class="txt-clients">
                         Duis autem vel eum iriure dolor in 
-                        <br>hendrerit in vulputate velit esse molestie 
-                        <br>consequat, vel illum dolore eu feugiat nulla
-                        <br>facilisis at vero eros et accumsan et iusto 
-                        <br>odio dignissim qui blandit odio 
-                        <br>qui blandit molestie consequat.
+                        hendrerit in vulputate velit esse molestie 
+                        consequat, vel illum dolore eu feugiat nulla
+                        facilisis at vero eros et accumsan et iusto 
+                        odio dignissim qui blandit odio 
+                        qui blandit molestie consequat.
                     </p>
                     <div class="line-clients">
                     </div>
                     <div class="cust-name"> 
-                        <img src="./Circle photo 2.svg" alt="face photo">
+                        <img src="./Img/customers/Circle photo2.svg" alt="face photo">
                         <div class="cust-name-for-marg">    
-                            <p class="Customer-name">
+                            <span class="Customer-name">
                                 Elizabeth Martin
-                            </p>
-                            <p class="Customer">
+                            </span>
+                            <span class="Customer">
                                 Customer
-                            </p>
+                            </span>
                         </div>    
                     </div>      
-                </div>
+                </article>
                 <div class="cont-clients">
                     <p class="txt-clients">
                         Duis autem vel eum iriure dolor in 
-                        <br>hendrerit in vulputate velit esse molestie 
-                        <br>consequat, vel illum dolore eu feugiat nulla
-                        <br>facilisis at vero eros et accumsan et iusto 
-                        <br>odio dignissim qui blandit odio 
-                        <br>qui blandit molestie consequat.
+                        hendrerit in vulputate velit esse molestie 
+                        consequat, vel illum dolore eu feugiat nulla
+                        facilisis at vero eros et accumsan et iusto 
+                        odio dignissim qui blandit odio 
+                        qui blandit molestie consequat.
                     </p>
                     <div class="line-clients">
                     </div>
                     <div class="cust-name">  
-                        <img src="./Circle photo 3.svg" class="photoCus3" alt="face photo">
+                        <img src="./Img/customers/Circle photo3.svg" class="photoCus3" alt="face photo">
                         <div class="cust-name-for-marg">    
-                            <p class="Customer-name">
+                            <span class="Customer-name">
                                 Robin Soutby
-                            </p>
-                            <p class="Customer">
+                            </span>
+                            <span class="Customer">
                                     Customer
-                            </p>
+                            </span>
                         </div>    
                     </div>      
                 </div>
             </div> 
-        </article>
-        <article class="contacts">
-            <h2>
+        </section>
+        <section class="contacts">
+            <h2 class="h2-contacts">
                 Contacts
             </h2>
             <div class="cont-cont">    
                 <div class="visit">
-                    <img src="./location_on.svg" alt="icon">
-                    <h4>
+                    <img class="icons-contacts" src="./Img/contacts/location_on.svg" alt="icon">
+                    <h4 class="h4-contacts">
                         Visit Us
                     </h4>
                     <p class="txt-contacts">
                         Duis autem vel eum iriure dolor
-                        <br> in hendrerit in vulputate velit.
+                         in hendrerit in vulputate velit.
                     </p>
                 </div>
                 <div class="call">
-                    <img src="./phone.svg" alt="icon">
-                    <h4>
+                    <img class="icons-contacts" src="./Img/contacts/phone.svg" alt="icon">
+                    <h4 class="h4-contacts">
                         Call Us
                     </h4>
-                    <p class="txt-contacts">
-                        +7 (987) 654-32-10
-                    </p>
-                    <p class="txt-contacts">
-                        +7 (123) 456-78-90
-                    </p>
+                    <a class="txt-contacts" href=tel:+7 (987) 654-32-10>+7 (987) 654-32-10</a>
+                    <a class="txt-contacts" href="tel:+7 (123) 456-78-90">+7 (123) 456-78-90</a>
                 </div>
                 <div class="email">
-                    <img src="./mail.svg" alt="icon">
-                    <h4>
+                    <img class="icons-contacts" src="./Img/contacts/mail.svg" alt="icon">
+                    <h4 class="h4-contacts">
                         Email Us
                     </h4>
-                    <p class="txt-contacts">
-                        example@example.com
-                    </p>
-                    <p class="txt-contacts">
-                        support@example.com
-                    </p>
+                    <a class="txt-contacts" href="mailto:example@example.com">example@example.com</a>
+                    <a class="txt-contacts" href="mailto:support@example.com">support@example.com</a>
+                    
                 </div>
             </div>
-        </article>   
+        </section>   
     </main>
     <footer>
-            <img src="./logo.svg" alt="Логотип">
+            <img src="./Img/header/logo.svg" alt="Логотип">
             <p class="rights">
                 Copyright ©2017. All Right Reserved
             </p>
-            <ul class="foot-ul">
+            <nav class="footer-nav">
+                <ul class="foot-ul list-reset">
                 <li>
                     <a href="#">About us</a>
                 </li>
@@ -331,12 +313,12 @@
                 <li>
                     <a href="#">Terms Condition</a>
                 </li>
-            </ul>
+                </ul>
+            </nav>
             <div class="foot-icon">
-                <img src="./twitter logo.svg" alt="pict">
-                <img src="./linkedin logo.svg" alt="pict">
-                <img src="./Group 9.svg" alt="pict">
+                <img src="./Img/footer/twitter logo.svg" alt="pict">
+                <img src="./Img/footer/linkedin logo.svg" alt="pict">
+                <img src="./Img/footer/Group 9.svg" alt="pict">
             </div>        
-    </footer>
-</body>
+    </footer> 
 </html>
