@@ -428,9 +428,9 @@ footer{
     align-items: center;
 }
 
-.footer-nav{
+/* .footer-nav{
 
-}
+} */
 
 .foot-ul{
     display: flex;
@@ -441,7 +441,7 @@ footer{
     
     display: flex;
     flex-wrap: nowrap;
-    gap 20px;
+    gap: 20px;
     
 }
 /* .rights{
